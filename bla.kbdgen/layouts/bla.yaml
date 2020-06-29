@@ -15,11 +15,11 @@ modes:
   ios:
     default: |
       q w e r t y u i o p
-       a s d f g h j k l
+      \s{spacer:0.25} a s d f g h j k l \s{spacer:0.25}
       \s{shift:1.25} \s{spacer:0.25} z x c v b n m \s{spacer:0.25} \s{backspace:1.25}
     shift: |
       Q W E R T Y U I O P
-       A S D F G H J K L
+      \s{spacer:0.25} A S D F G H J K L \s{spacer:0.25}
       \s{shift:1.25} \s{spacer:0.25} Z X C V B N M \s{spacer:0.25} \s{backspace:1.25}
     symbols-1: |
       1 2 3 4 5 6 7 8 9 0
