@@ -765,6 +765,22 @@ transforms:
     O: Õ
     u: ũ
     U: Ũ
+  'ˍ':
+    ' ': ˍ
+    B: Ḇ
+    b: ḇ
+    D: Ḏ
+    d: ḏ
+    L: Ḻ
+    l: ḻ
+    N: Ṉ
+    n: ṉ
+    R: Ṟ
+    r: ṟ
+    T: Ṯ
+    t: ṯ
+    Z: Ẕ
+    z: ẕ
 
 keyNames:
   space: space
