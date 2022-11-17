@@ -1,6 +1,7 @@
 displayNames:
   bla: Siksika
   en: Siksika
+
 android:
   config:
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-bla?channel=nightly&platform=mobile
@@ -25,6 +26,7 @@ android:
         Q W E R T Y U I O P
         A S D F G H J K L
         \s{shift} Z X C V B N M \s{backspace}
+
 iOS:
   config:
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-bla?channel=nightly&platform=mobile
@@ -47,6 +49,7 @@ iOS:
         [ ] { } # % ^ * + =
         _ \ | ~ < > € $ £ •
         \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+
   iPad-9in:
     layers:
       default: |
@@ -73,6 +76,7 @@ iOS:
         \s{spacer:0.75}  1 2 3 4 5 6 7 8 9 0 ´ \s{backspace:1.25}
         \s{shiftSymbols} € $ £ ^ [ ] { } — ° … \s{shiftSymbols}
         \s{spacer:1.5}    § | ~ ≠ \ < > ! ?    \s{spacer:0.5} \s{return:2}
+
   iPad-12in:
     layers:
       default: |
@@ -100,6 +104,7 @@ iOS:
         \s{spacer:1.5} [ ] { } # % ^ * + = \ | ~
         \s{spacer:1.75} - / : ; ( ) kr & @ $ £ \s{return:1.75}
         \s{spacer:3.25} … . , ? ! ' " _ € \s{spacer:2.25}
+
 macOS:
   primary:
     layers:
@@ -155,6 +160,7 @@ macOS:
     alt+shift: ['ʔ', '‸', '№']
     cmd+alt: ['¸', 'ƒ', '˙']
     alt+caps: [',', '-', '.', '`', '¨', '¯', '´', '¸', 'ʼ', 'ˀ', 'ˆ', 'ˇ', 'ˍ', '˘', '˙', '˚', '˛', '˜', '˝']
+
 windows:
   config:
     locale: bla-Latn-US
@@ -206,6 +212,7 @@ windows:
     alt+shift: \u{A0}
     cmd+alt: \u{A0}
     alt+caps: \u{A0}
+
 chromeOS:
   config:
     locale: en
@@ -242,6 +249,7 @@ chromeOS:
         Q W \u{0} \u{0} Ŧ \u{0} \u{0} Ï Õ \u{0} ^ ˇ
         Â \u{0} \u{0} \u{0} Ǧ Ǥ \u{0} Ǩ \u{0} Ö Ä *
         Ǯ Ʒ X \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+
 transforms:
   '\u{A0}\u{30F}':
     ' ': \u{A0}\u{30F}
@@ -706,6 +714,7 @@ transforms:
     O: Õ
     u: ũ
     U: Ũ
+
 longpress:
   A: Ä Á À Â Ã Ā Ạ Å Æ
   E: Ë É È Ê Ẽ Ē Ẹ Ė Ǝ
@@ -742,6 +751,7 @@ longpress:
   '.': ', ; : ? ! ¿ ¡'
   '"': „ “ ” « »
   "'": ‚ ‘ ’
+
 keyNames:
   space: space
   return: return
