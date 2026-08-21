@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Documentation for the Siksika keyboards
 
 ## Layouts
